@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -5247,7 +5247,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <text x="173.99" y="23.876" size="2.54" layer="94" font="vector" ratio="10">Released under the Creative Commons
 Attribution Share-Alike 4.0 License
 http://creativecommons.org/licenses/by-sa/4.0</text>
-<text x="266.192" y="6.604" size="3.81" layer="94" font="vector">1</text>
+<text x="266.192" y="6.604" size="3.81" layer="94" font="vector">2</text>
 </plain>
 <instances>
 <instance part="U1" gate="G$1" x="127" y="124.46"/>
@@ -5267,8 +5267,8 @@ http://creativecommons.org/licenses/by-sa/4.0</text>
 <attribute name="NAME" x="154.94" y="105.918" size="1.524" layer="95"/>
 </instance>
 <instance part="J2" gate="-2" x="152.4" y="104.14"/>
-<instance part="J2" gate="-3" x="104.14" y="106.68" rot="MR0"/>
-<instance part="J2" gate="-4" x="104.14" y="104.14" rot="MR0"/>
+<instance part="J2" gate="-3" x="104.14" y="104.14" rot="MR0"/>
+<instance part="J2" gate="-4" x="104.14" y="106.68" rot="MR0"/>
 <instance part="J3" gate="-1" x="152.4" y="129.54" smashed="yes">
 <attribute name="NAME" x="154.94" y="128.778" size="1.524" layer="95"/>
 </instance>
@@ -5411,20 +5411,6 @@ http://creativecommons.org/licenses/by-sa/4.0</text>
 <junction x="172.72" y="116.84"/>
 </segment>
 </net>
-<net name="N$2" class="0">
-<segment>
-<pinref part="J2" gate="-3" pin="S"/>
-<pinref part="U1" gate="G$1" pin="A4"/>
-<wire x1="106.68" y1="106.68" x2="116.84" y2="106.68" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$3" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="A5"/>
-<pinref part="J2" gate="-4" pin="S"/>
-<wire x1="116.84" y1="104.14" x2="106.68" y2="104.14" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$4" class="0">
 <segment>
 <pinref part="J2" gate="-1" pin="S"/>
@@ -5563,6 +5549,20 @@ http://creativecommons.org/licenses/by-sa/4.0</text>
 <pinref part="U1" gate="G$1" pin="*10"/>
 <pinref part="J7" gate="-1" pin="S"/>
 <wire x1="139.7" y1="111.76" x2="149.86" y2="111.76" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="J2" gate="-4" pin="S"/>
+<pinref part="U1" gate="G$1" pin="A4"/>
+<wire x1="106.68" y1="106.68" x2="116.84" y2="106.68" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="A5"/>
+<pinref part="J2" gate="-3" pin="S"/>
+<wire x1="116.84" y1="104.14" x2="106.68" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
