@@ -21,7 +21,7 @@
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
@@ -186,7 +186,7 @@
 <text x="34.29" y="33.3375" size="1.27" layer="21" font="vector" rot="SR90" align="center">TX</text>
 <text x="1.5875" y="16.1925" size="1.016" layer="16" font="vector" ratio="15" rot="MR90">3/7/2015</text>
 <text x="21.59" y="37.1475" size="0.8636" layer="21" font="vector" ratio="10" rot="R90">-</text>
-<text x="13.6525" y="40.3225" size="0.8636" layer="51" font="vector" ratio="10" rot="R270">+3.3-12V</text>
+<text x="13.6525" y="40.3225" size="0.8636" layer="51" font="vector" ratio="10" rot="R270">+5.0-12V</text>
 </plain>
 <libraries>
 <library name="SparkFun-Boards">
